@@ -1,0 +1,56 @@
+.tags_wrapper_cont {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly
+}
+
+.tags_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.tags_wrapper h3 {
+    border-radius: 20px 20px 0 0;
+}
+
+.tag_heading {
+    background: linear-gradient(to bottom, orange, #ff8c00);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tag_heading:hover {
+    background: linear-gradient(to bottom, orange, #ff9e27e1);
+    transition: all 1s ease;
+}
+
+.tags_content_section_cont {
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+}
+
+.tag_content_section {
+    display: none;
+    font-size: 20px;
+}
+
+.active_tag_content_section {
+    display: block;
+    border-top: 2px solid #ff8c00;
+}
+
+.active-tag {
+    transform: scale(1.2, 1.2);
+    transition: all 1s ease-in;
+}
+
+.faqs_ans {
+    color: blue;
+}

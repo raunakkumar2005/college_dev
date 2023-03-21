@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College-Campus - The ultimate college marketplace</title>
+
+    <meta name="description"
+        content="College-Campus is an online marketplace for college students to buy and sell goods and services. Find great deals on textbooks, electronics, and dorm room essentials.">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./login/login.css">
+    <link rel="stylesheet" href=",/css/dark.css">
+    <script src="https://kit.fontawesome.com/80908bc01a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="login-form-container">
+            <h2>Sign In</h2>
+            <hr color="white">
+            <form id="login-form" method="post" action="/login">
+                <div class="email-cont">
+                    <label>Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Registered Email-ID" required>
+                </div>
+                <div class="pwd-cont">
+                    <label>Roll: </label>
+                    <input type="text" name="roll" id="password" placeholder="Enter Your Roll no." required>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" name="remember" id="remember-me"><label for="remember-me">Remember
+                        Me</label>
+                </div>
+                <input type="submit" name="login-submit" id="login-submit" class="submit">
+
+            </form>
+            <div class="sign-dwn-btns">
+                <a href="/register">
+                    <button id="show-sign-up-btn">Sign Up</button>
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
